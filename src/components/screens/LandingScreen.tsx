@@ -1,4 +1,4 @@
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
 
 interface LandingScreenProps {
   onContinue: () => void;
@@ -10,7 +10,7 @@ export const LandingScreen = ({ onContinue }: LandingScreenProps) => {
       initial={{ opacity: 0, scale: 0.9 }}
       animate={{ opacity: 1, scale: 1 }}
       exit={{ opacity: 0, scale: 0.9 }}
-      transition={{ duration: 0.6, ease: 'easeOut' }}
+      transition={{ duration: 0.6, ease: "easeOut" }}
       className="flex flex-col items-center justify-center min-h-screen px-6 text-center relative z-10"
     >
       {/* Main Glass Card */}
@@ -22,10 +22,10 @@ export const LandingScreen = ({ onContinue }: LandingScreenProps) => {
           transition={{ delay: 0.3, duration: 0.6 }}
           className="font-romantic text-5xl md:text-6xl font-semibold text-rose-dark mb-6"
         >
-          Rohini{' '}
+          Kritika{" "}
           <motion.span
             animate={{ scale: [1, 1.2, 1] }}
-            transition={{ repeat: Infinity, duration: 1.5, ease: 'easeInOut' }}
+            transition={{ repeat: Infinity, duration: 1.5, ease: "easeInOut" }}
             className="inline-block"
           >
             💖
