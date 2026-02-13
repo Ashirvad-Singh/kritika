@@ -22,7 +22,7 @@ export const LandingScreen = ({ onContinue }: LandingScreenProps) => {
           transition={{ delay: 0.3, duration: 0.6 }}
           className="font-romantic text-5xl md:text-6xl font-semibold text-rose-dark mb-6"
         >
-          Reet{" "}
+          Bhawna{" "}
           <motion.span
             animate={{ scale: [1, 1.2, 1] }}
             transition={{ repeat: Infinity, duration: 1.5, ease: "easeInOut" }}
